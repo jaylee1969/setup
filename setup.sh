@@ -45,3 +45,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+git clone https://github.com/jaylee1969/vimenv.git
+ln -sb vimenv ~/.vim
+ln -sb vimenv/.vimrc ~/.vimrc
