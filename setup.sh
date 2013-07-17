@@ -62,6 +62,8 @@ git clone https://github.com/vim-scripts/L9.git
 git clone https://github.com/vim-scripts/FuzzyFinder.git
 # Install example snippets files
 git clone https://github.com/honza/vim-snippets.git
+# Install MatchTagAlways
+git clone https://github.com/Valloric/MatchTagAlways.git
 
 # install custom vim environment
 cd ~
