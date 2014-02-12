@@ -30,6 +30,17 @@ sudo apt-get install -y rlwrap
 # https://toolbelt.heroku.com/debian
  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+# Install Mac fonts
+wget http://dl.dropbox.com/u/26209128/mac_fonts.tar.gz
+tar zxvf mac_fonts.tar.gz
+sudo mv fonts /usr/share/fonts/
+sudo fc-cache -f -v
+
+# Install go 1.2
+wget https://go.googlecode.com/files/go1.2.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.1.linux-amd64.tar.gz
+
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
