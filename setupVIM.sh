@@ -21,7 +21,8 @@ git clone https://github.com/honza/vim-snippets.git
 # Install MatchTagAlways
 git clone https://github.com/Valloric/MatchTagAlways.git
 
-# install custom vim environment
+# install custom vim environment and bash
 cd ~
 git clone https://github.com/jaylee1969/mydotfiles.git
 ln -sf mydotfiles/.vimrc .
+ln -sf mydotfiles/.bashrc .
