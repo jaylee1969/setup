@@ -55,6 +55,11 @@ fi
 #ln -sb dotfiles/.bashrc_custom .
 #ln -sf dotfiles/.emacs.d .
 
+# create folder for go code
+cd $HOME
+if [ ! -d ./work/gocode/ ]; then
+    mkdir ./work/gocode
+fi
 
 ~/setup/setupVIM.sh
 
